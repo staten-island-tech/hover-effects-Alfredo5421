@@ -1,8 +1,16 @@
 @import "_variables.scss";
-
 .btn,
 .btn:link,
 .btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
   padding: 1.5rem 4rem;
-  background-color: red;
+  display: inline-block;
+  margin: 1rem;
+  font-size: 2rem;
+  border-radius: 10rem;
+  transition: all 0.3s;
+  position: relative;
+  animation: moveInBottom 0.5s ease-out 0.75s;
+  animation-fill-mode: backwards;
 }
