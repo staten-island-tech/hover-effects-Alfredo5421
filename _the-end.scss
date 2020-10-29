@@ -1,0 +1,26 @@
+@import "_variables.scss";
+
+.the-end {
+  height: 30rem;
+  position: relative;
+}
+.the-end-picture {
+  height: 30rem;
+  clip-path: circle();
+  transition: all 0.3s;
+}
+
+.the-end-header {
+  font-size: 3rem;
+  opacity: 1;
+  color: color(white);
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  transition: all 0.3s;
+}
+.the-end:hover .the-end-header {
+  top: 45%;
+}

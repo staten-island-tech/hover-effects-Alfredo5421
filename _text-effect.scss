@@ -1,0 +1,16 @@
+@import "_variables.scss";
+
+.text-effect {
+  background-image: url("./media/water.jpg");
+  background-position: center;
+  color: transparent;
+  font-size: 5rem;
+  margin-top: 4rem;
+  -webkit-background-clip: text;
+  transition: all 0.3s;
+}
+
+.text-effect:hover {
+  transform: skewY(-20deg);
+  letter-spacing: 2rem;
+}

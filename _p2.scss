@@ -1,6 +1,10 @@
 @import "_variables.scss";
-.p:hover {
+.p2:hover {
   transform: translateY(-2px);
   box-shadow: 0 10px 0.5rem rgba(color(black), 0.2);
-  color: red;
+  color: #00b0ff;
+}
+.p2 {
+  margin-top: 4rem;
+  font-size: 1.25rem;
 }

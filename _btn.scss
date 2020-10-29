@@ -3,13 +3,19 @@
 .btn:link,
 .btn:visited {
   text-decoration: none;
-  padding: 1.5rem 4rem;
-  display: inline-block;
+  padding: 1.5rem 3.5rem;
   margin: 1rem;
   font-size: 2rem;
-  border-radius: 5rem;
+  border-radius: 2rem;
   transition: all 0.3s;
   position: relative;
-  background-color: #ff5722;
+  background-color: #00b0ff;
   color: #000;
+  transition: all 0.25s;
+}
+
+.btn:active {
+  color: #fff;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  transform: scalex(1.25) scaleY(1.3);
 }

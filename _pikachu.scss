@@ -1,0 +1,11 @@
+@import "_variables.scss";
+.pikachu {
+  margin-top: 2.5rem;
+  height: 20rem;
+  transition: all 0.3s;
+  border-radius: 50%;
+}
+.pikachu:hover {
+  transform: scale(0.5);
+  filter: grayscale(100%);
+}
